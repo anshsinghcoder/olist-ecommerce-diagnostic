@@ -7,7 +7,7 @@
 ---
 
 ## Summary
-This project delivers an **end-to-end business intelligence solution** for a high-volume US retail chain ("Superstore"). By combining robust database querying (MySQL), automated transformations (Power Query), dynamic analytics engine modeling (DAX), and strategic UI design (Power BI), this analysis addresses critical operational bottlenecks, loss-leading categories, and profitability leakage across customer segments.
+This is a project for portfolio , you have 2 files above a cleaned excel file , sql queries with comments to understand how i created those specifically to solve business requirements 
 
 ---
 
