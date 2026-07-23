@@ -19,5 +19,5 @@ This is a project for portfolio , you have 2 files above a cleaned excel file , 
 
 ---
 
-##  Data Architecture & Workflow
-The analysis follows a strict four-stage data architecture to maintain auditability and single-source-of-truth integrity:
+##  Data Architecture & Workflow 
+I have used *superstore* dataset publically available on github .
