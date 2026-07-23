@@ -1,19 +1,23 @@
-# olist-ecommerce-diagnostic
+# 📊 US Superstore End-to-End Business Performance & Logistics Analysis
 
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![MySQL](https://img.shields.io/badge/MySQL-00758F?style=for-the-badge&logo=mysql&logoColor=white)
+![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
-erd
+---
 
-## The Business Problem
-[Your 1a paragraph — the stakeholder brief]
+## 📌 Executive Summary
+This project delivers an **end-to-end business intelligence solution** for a high-volume US retail chain ("Superstore"). By combining robust database querying (MySQL), automated transformations (Power Query), dynamic analytics engine modeling (DAX), and strategic UI design (Power BI), this analysis addresses critical operational bottlenecks, loss-leading categories, and profitability leakage across customer segments.
 
-## Key Findings
-- Category X drives 18% of revenue but has 2.3x the average delivery delay
-- 3 sellers account for 40% of late shipments — estimated $XX,XXX revenue at risk
-- [2-3 more, each one line, each with a number]
+---
 
-## Live Dashboard
-[Link to Power BI Publish-to-Web, or a Loom video walkthrough]
+## 🎯 Business Objectives
+* **Profitability Guardrails:** Identify product sub-categories with high gross revenue but negative net profit ("Loss Leaders").
+* **Logistics Optimization:** Quantify delivery failure rates across shipping modes and pinpoint regional fulfillment bottlenecks.
+* **Discount Governance:** Determine the threshold where discounting shifts from revenue generation to margin erosion.
+* **Customer Value Segmentation:** Calculate Lifetime Value (LTV) and Average Order Value (AOV) to target retention strategies.
 
-## Tools & Method
-Excel (data modeling) → SQL/PostgreSQL (business logic) → Power BI (dashboard)
-See /docs for data quality process and analysis plan.
+---
+
+## 🛠️ Data Architecture & Workflow
+The analysis follows a strict four-stage data architecture to maintain auditability and single-source-of-truth integrity:
